@@ -35,7 +35,7 @@ function AddTodo({ addTodo }) {
           value={content}
           onChange={(e) => setContent(e.target.value)}
         />
-        <Button colorScheme="pink" px="8" type="submit">
+        <Button colorScheme="teal" px="8" type="submit">
           Add Todo
         </Button>
       </HStack>
